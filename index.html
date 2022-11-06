@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>advancedPortfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Advanced Portfolio</title>
+    <link rel="stylesheet" href="/styles.css">
     <script src="app.js" defer></script>
     <script src="https://kit.fontawesome.com/1636643afb.js" crossorigin="anonymous"></script>
 </head>
@@ -14,54 +14,78 @@
 <body>
     <section id="landing-page">
         <nav>
-            <figure>
-                <img id="personal-logo" src="" alt="placeholder">
+            <figure id="personal-logo">
+                <img src="" alt="no logo">
             </figure>
-
             <ul class="nav__link--list">
+
                 <li class="nav__link">
                     <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">About</a>
+                nav__link--anchor 
+                link__hover-effect
+                link__hover-effect--black">About</a>
                 </li>
+
                 <li class="nav__link">
                     <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">Projects</a>
+                nav__link--anchor 
+                link__hover-effect
+                link__hover-effect--black
+                ">Projects</a>
                 </li>
+
                 <li class="nav__link">
                     <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">Contact</a>
+                nav__link--anchor 
+                link__hover-effect
+                link__hover-effect--black
+                ">Contact</a>
                 </li>
-                <li class="nav__link">
+
+                <li class="nav__link click">
                     <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    "><i class="fa-solid fa-circle-half-stroke"></i></a>
+                nav__link--anchor 
+                link__hover-effect
+                link__hover-effect--black
+                "><i class="fa-solid fa-circle-half-stroke"></i></a>
                 </li>
             </ul>
         </nav>
-        <div class="header">
-            <div class="header--content">
-                <h1 class="title">hey</h1>
-                <h1 class="title title--secondary">I'm Sam</h1>
-                <p class="header__para">
-                    Lorem ipsum dolor sit amet consectetur, <b class="highlight__orange">adipisicing elit.</b> Ad vitae ipsam, iste qui nisi ipsa earum,
-                    facere consequatur vero minima quia eaque praesentium fuga blanditiis.
-                    <br>
-                    Lorem ipsum dolor sit amet.
-                </p>
+        <header>
+            <div class="header__content">
+                <h1 class="title">Hey</h1>
+                <h1 class="title orange">I'm Sam.</h1>
             </div>
-        </div>
+            <div class="header__para">
+                <p class="header__para">
+                    Lorem ipsum dolor, sit amet consectetur <b class="orange">adipisicing elit.</b> Suscipit quibusdam optio explicabo incidunt
+                    autem debitis esse.
+                <br>
+                    Lorem ipsum <b class="orange">dolor sit amet.</b>
+                </p>
+                <div class="social__list">
+                    <a href="" class="social__link click">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="social__link click">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="" class="social__link click">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <button class="btn__mail click">
+            <i class="fa-solid fa-envelope"></i>
+        </button>
+        <a href="#projects" class="scroll">
+            <div class="scroll__icon click">
+                
+            </div>
+        </a>
     </section>
+
 </body>
 
 </html>
